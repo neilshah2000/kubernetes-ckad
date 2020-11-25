@@ -10,9 +10,6 @@ spec:
         spec:
           containers:
           - name: hello
-            image: busybox
-            args:
-            - /bin/sh
-            - -c
-            - date; echo hello from the K8s cluster
+            image: alpine
+            command: ['sleep', '300']
           restartPolicy: OnFailure

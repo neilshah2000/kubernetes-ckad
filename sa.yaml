@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2020-11-22T21:41:53Z"
+  name: default
+  namespace: default
+  selfLink: /api/v1/namespaces/default/serviceaccounts/default
+  uid: afad07eb-f58e-4012-9ccf-0ac9762981d5
+secrets:
+- name: default-token-gkmp7
+imagePullSecrets:
+- name: regcred
